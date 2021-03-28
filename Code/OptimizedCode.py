@@ -7,7 +7,7 @@ def suggestedProducts( products, searchWord, resultSize):
         output.append(products[:resultSize])
     return output
 
-resultSize = int(input("Enter the number of results that you want"))
+resultSize = 3
 products = ["mobile","mouse","moneypot","monitor","mousepad"]
 searchWord = "mouse"
 print(suggestedProducts(products, searchWord, resultSize))
